@@ -1,9 +1,5 @@
 # Your Kid Is Making a Video Game
 
-![A kid and Claude turn an island game into a lunchroom food fight. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
-
-[Download the video (MP4, 6 MB)](docs/media/stormring-kid-and-claude.mp4)
-
 A short guide for parents. You do not need to know anything about computers or code.
 
 ![A 70-second example: a kid and Claude change a game together. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
