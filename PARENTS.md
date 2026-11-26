@@ -24,9 +24,9 @@ A short guide for parents. You do not need to know anything about computers or c
 
 ## Is the AI doing the work for them?
 
-[![Watch a 70-second example: a kid and Claude change a game together. Click to play.](docs/media/stormring-kid-and-claude.gif)](docs/media/stormring-kid-and-claude.mp4)
+![A 70-second example: a kid and Claude change a game together. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
 
-**[▶ Watch the 70-second example (MP4)](docs/media/stormring-kid-and-claude.mp4).** It is a real test run: a second AI plays the kid, and you see the plan, the questions, a wrong answer that gets a hint, and each small step.
+The video plays on its own and repeats. It is a real test run: a second AI plays the kid, and you see the plan, the questions, a wrong answer that gets a hint, and each small step. You can also [download the MP4](docs/media/stormring-kid-and-claude.mp4).
 
 Claude writes the code. It does not do the thinking. The kit holds Claude to fixed rules:
 

@@ -11,9 +11,9 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 
 ## See it work (70 seconds)
 
-[![A kid and Claude turn an island game into a lunchroom food fight. Click to play the video.](docs/media/stormring-kid-and-claude.gif)](docs/media/stormring-kid-and-claude.mp4)
+![A kid and Claude turn an island game into a lunchroom food fight. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
 
-**[▶ Play the video (MP4, 6 MB)](docs/media/stormring-kid-and-claude.mp4)**
+[Download the video (MP4, 6 MB)](docs/media/stormring-kid-and-claude.mp4)
 
 A real test run of the kit. The kid asks for a change to the example game Stormring: "no guns, a food fight in a giant school lunchroom". You see:
 1. The kid says the idea. Claude splits it into small steps.
