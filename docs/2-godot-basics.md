@@ -61,9 +61,10 @@ Here is the real player from the example game [Stormring](https://github.com/ace
 
 ```
 Player          CharacterBody3D   moves, falls, hits walls   ← player.gd is on this node
-├─ Body         MeshInstance3D    the capsule you see
+├─ Body         kid.tscn          the kid you see (a scene inside a scene)
+│  └─ Napkin    napkin.tscn       open while you float down
 ├─ Shape        CollisionShape3D  the capsule's size for hits
-├─ Ghost        MeshInstance3D    the see-through wall when you build
+├─ Ghost        MeshInstance3D    the see-through tray wall when you build
 └─ CamYaw       Node3D            turns left and right
    └─ CamPitch  Node3D            turns up and down
       └─ SpringArm                pulls the camera in front of walls
@@ -76,11 +77,11 @@ When the player runs, every child runs with it. The camera stays behind the play
 
 A **scene** is a saved tree of nodes, in a `.tscn` file. A scene can go inside another scene. This is called an **instance**.
 
-In Stormring, `player.tscn` is one scene. `main.tscn` is the island. When a match starts, the game makes one copy of the player scene for each person and puts it on the island. Change `player.tscn` once, and every player changes.
+In Stormring, `player.tscn` is one scene. `main.tscn` is the lunchroom. When a match starts, the game makes one copy of the player scene for each person and puts it in the lunchroom. Change `player.tscn` once, and every player changes.
 
 ```
-main.tscn (the island)
-├─ Island, Water, Props, Sun ...
+main.tscn (the lunchroom)
+├─ Room, Tables, Props, Sun ...
 ├─ Players
 │  ├─ player.tscn  (you)
 │  └─ player.tscn  (a friend)
@@ -124,7 +125,7 @@ A **signal** is a message that a node sends when something happens. Other nodes 
 | `Button` | `pressed` | Someone clicked it |
 | `Area3D` | `body_entered` | Something walked into the zone |
 | `Timer` | `timeout` | The time is up |
-| Your own script | `eliminated` | (Stormring) a fighter is out |
+| Your own script | `eliminated` | (Stormring) a fighter is splatted and out of the round |
 
 The real Stormring start screen connects the Host button like this:
 

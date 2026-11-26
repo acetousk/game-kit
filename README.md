@@ -22,6 +22,22 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 | **Kid** | [docs/6-friends-and-feedback.md](docs/6-friends-and-feedback.md): bug reports and ideas from friends, and the docs for your players |
 | **Kid** | [docs/7-when-stuck.md](docs/7-when-stuck.md): common problems and what to do |
 
+## Keep your chats out of AI training
+
+Claude Pro is on an adult's account. By default, Anthropic may use its chats and Claude Code sessions to train new AI models. Turn this off once, before the first session:
+
+1. Sign in at claude.ai with the account Claude Code uses.
+2. Open [claude.ai/settings/data-privacy-controls](https://claude.ai/settings/data-privacy-controls) (your name → **Settings** → **Privacy**).
+3. Turn off the switch that lets Anthropic use your chats to improve its AI models.
+
+With the switch off:
+- New chats are not used for training.
+- Anthropic keeps them for 30 days, not 5 years.
+
+The switch covers Claude Code too. The kit does the rest: [starter/.claude/settings.json](starter/.claude/settings.json) turns off `/feedback`, `/bug`, `/share`, and the session survey. Those would send the chat and code to Anthropic, kept for 5 years.
+
+More: [Claude Code data usage](https://code.claude.com/docs/en/data-usage) and [how to change the setting](https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings).
+
 ## What is in this repo
 
 ```
@@ -34,7 +50,7 @@ game-kit/
 ```
 
 - **[starter/](starter/)**: copy everything in it into your new game repo ([docs/1-setup.md](docs/1-setup.md), part C). Then open the folder in Claude Code and say `What do we do first?`. The list of what to say to Claude is in [starter/SKILLS.md](starter/SKILLS.md).
-- **[examples/](examples/)**: [Stormring](https://github.com/acetousk/stormring) (3D, online battle royale) and [Lantern Deep](https://github.com/acetousk/lantern-deep) (2D, turn-based cave crawler).
+- **[examples/](examples/)**: [Stormring](https://github.com/acetousk/stormring) (3D, online food fight) and [Lantern Deep](https://github.com/acetousk/lantern-deep) (2D, turn-based cave crawler).
 
 ## The rules Claude follows
 
