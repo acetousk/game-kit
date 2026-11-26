@@ -2,9 +2,9 @@
 
 A short guide for parents. You do not need to know anything about computers or code.
 
-![A 70-second example: a kid and Claude change a game together. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
+![A 90-second test run: a kid, played by a second AI, and Claude change a game together. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
 
-This 70-second video plays on its own and repeats. It is a real test run: a second AI plays the kid. You see the plan, the questions, a wrong answer that gets a hint, and each small step. You can also [download the MP4](docs/media/stormring-kid-and-claude.mp4).
+This 90-second video plays on its own and repeats, with no sound. It is a real test run: a second AI plays the kid. You see the plan, the questions, a wrong answer that gets a hint, and each small step. With sound: [download the video with narration](docs/media/stormring-kid-and-claude.mp4).
 
 ## In one minute
 

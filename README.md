@@ -9,18 +9,18 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 - **Builds and hosting:** GitHub (free): web, Android, Windows, Linux
 - **Online:** GD-Sync rooms with a 4-digit code, up to 4 players (free)
 
-## See it work (70 seconds)
+## See it work (90 seconds)
 
-![A kid and Claude turn an island game into a lunchroom food fight. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
+![A kid, played by a second AI, and Claude turn an island game into a lunchroom food fight. The video plays on its own and repeats.](docs/media/stormring-kid-and-claude.webp)
 
-[Download the video (MP4, 6 MB)](docs/media/stormring-kid-and-claude.mp4)
+With sound: [download the video with narration (MP4, 7 MB)](docs/media/stormring-kid-and-claude.mp4)
 
 A real test run of the kit. The kid asks for a change to the example game Stormring: "no guns, a food fight in a giant school lunchroom". You see:
 1. The kid says the idea. Claude splits it into small steps.
 2. Claude asks questions about the plan. A wrong answer gets a hint, not the answer.
 3. Nothing changes until the kid says yes. Then Claude builds one step, and the kid plays it.
 4. Claude reads its own test run and finds a bug (the bots splat you in 2 seconds).
-5. The finished Lunchroom Food Fight, made later with the same kit.
+5. The finished Lunchroom Food Fight. The maintainer finished it later with the same kit.
 
 In this test, a second AI (Claude Haiku) plays the kid. The game's own Claude does all the work, the same way as for a real kid.
 
