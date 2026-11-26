@@ -181,7 +181,7 @@ The [starter/](../starter) folder has all the repo files: the agent rules, the s
 |---|---|---|---|
 | **Godot 4.7.2** (standard, **not** .NET) | The game engine | godotengine.org/download/windows | Free |
 | **Git for Windows** | Saves versions of the game. Claude Code also needs it. | git-scm.com, or `winget install Git.Git` | Free |
-| **GitHub Desktop** | Commit and push with buttons | desktop.github.com, or `winget install GitHub.GitHubDesktop` | Free |
+| **GitHub Desktop** | Clone the repo, and see each save in History. Claude does the commits and pushes. | desktop.github.com, or `winget install GitHub.GitHubDesktop` | Free |
 | **Claude desktop app** | Claude chat + **Claude Code** (the "Code" part) | claude.com/download | Parent's Pro plan |
 | **Chrome or Edge** | Test the web build | Already on Windows (Edge) | Free |
 | **Bitwarden** (desktop app + browser extension + phone app) | Keeps all your passwords and 2FA recovery codes | bitwarden.com/download, or `winget install Bitwarden.Bitwarden` | Free |
@@ -256,7 +256,7 @@ Put 2 windows side by side:
 │   F5 = play the game     │   step → ▶ → answer    │
 │                          │                        │
 └──────────────────────────┴────────────────────────┘
-       GitHub Desktop: open it when you commit
+       GitHub Desktop: see the saves (History). Claude makes them.
 ```
 
 Press **Win + Left arrow** and **Win + Right arrow** to place the windows.
@@ -299,7 +299,7 @@ The starter files already have the project, the settings, and the 4 export prese
 
 ### First release (30 min)
 - [ ] Check that `GODOT_VERSION` and the `godot-ci` image tag in `release.yml` are `4.7.2`, the same as `godot --version`.
-- [ ] Tag `v0.0.1` on the empty project and push it. In GitHub Desktop: **History**, right-click the newest commit, **Create Tag**, then **Push origin**. This tests the pipeline. The kid's real first release is `v0.1.0` at the end of the first playable (card G6).
+- [ ] Tag `v0.0.1` on the empty project and push it. In GitHub Desktop: **History**, right-click the newest commit, **Create Tag**, then **Push origin**. This tests the pipeline. The kid's real first release is `v0.1.0` at the end of the first playable (card G7).
 - [ ] Watch **Actions** until the run is green.
 - [ ] Test: install the APK with Obtainium, run the Windows `.exe`, open the Pages URL.
 

@@ -73,8 +73,8 @@ Two loops: a **card loop** (5–30 min) and, inside it, a **step loop** (about 1
  └──────────────── repeat until the card is done ───────────┘
    │
    ▼
- 5. SAVE      GitHub Desktop: summary like "G2 core loop"
-              → Commit to main → Push origin
+ 5. SAVE      Claude asks "Ship it now?" Say no: Claude saves the
+              card on this computer. Say yes: Claude ships it.
  6. NEXT      The next card, or stop
 ```
 
@@ -107,7 +107,7 @@ Two loops: a **card loop** (5–30 min) and, inside it, a **step loop** (about 1
 1. In Claude Code, type: "ship it."
 2. Claude asks you what is new and how one change works. Wrong? A hint, then try again. Nothing ships that you can't explain.
 3. Check the version Claude suggests. Say **go**.
-4. Click **Allow** on the 2 pop-ups (`git tag` and `git push`). Claude does every git step. You never type a command.
+4. Click **Allow** on each pop-up (one for `git tag`, one for each `git push`). Claude does every git step. You never type a command.
 5. Wait about 10 minutes. Then check:
    - GitHub > **Actions**: a green check
    - GitHub > **Releases**: the new version
@@ -120,14 +120,14 @@ Two loops: a **card loop** (5–30 min) and, inside it, a **step loop** (about 1
 - Claude slow? Type `/fast` in Claude Code.
 - Never accept a change you do not understand. Type `?` instead.
 - Always paste the **exact** error. Do not write it from memory.
-- Push at the end of every session, even when the work is not done.
+- End every session with a save point (Claude asks "Ship it now?" after each card). Ship at least once a week, so your work is on GitHub.
 - When you get stuck 3 times on the same problem, stop and ask the parent.
 
 **What to say:** open `SKILLS.md` in your game folder. It lists each keyword ("ship it", `bug: …`, `idea: …`, "make a level", "check my setup", "make a skill") and what Claude does.
 
 The repo makes Claude follow this flow. You do not need to read these files:
 - `AGENTS.md`: the rules, for any game and any request.
-- The skills in `.claude/skills/`: `game-plan` sorts each request to `new-game`, `feature`, `bug`, `ship`, `doctor`, `create-2d`, `create-3d`, `create-audio`, `create-background`, `create-environment`, or `create-skill`.
+- The skills in `.claude/skills/`: `game-plan` sorts each request to `new-game`, `feature`, `bug`, `ship`, `doctor`, `create-2d`, `create-3d`, `create-audio`, `create-background`, `create-environment`, `explain`, `online`, or `create-skill`.
 - `.claude/settings.json`: Claude Code starts in plan mode, so it cannot edit before you approve.
 
 ---
@@ -178,7 +178,7 @@ For each card:
 2. Read Claude's plan (Input, Output, steps, test). Answer its 1–3 questions.
 3. Choose **"Yes, and auto-accept edits"**.
 4. After each step: read the "How" line, press F5, play, and answer in one line: `ok`, a tweak, `bug: …`, `idea: …`, `?`, or `undo`.
-5. After the last step, commit in GitHub Desktop.
+5. After the last step, Claude asks "Ship it now?". No → Claude saves it on this computer. Yes → Claude ships it.
 
 **Done when:** You have a working game on 3 platforms, and 2 windows play together on one PC. 🎉
 

@@ -26,4 +26,6 @@ Online rooms in a downloaded copy work only inside Godot (2 windows, local mode)
 | `scripts/tune.gd` | Every feel number with a plain name |
 | `CREDITS.md` | Where each picture and sound came from |
 
+Both games started with an earlier version of the kit, so their cards in `PLAN.md` have other names than the cards in [docs/3-make-the-game.md](../docs/3-make-the-game.md). Their kit files (rules and skills) are the newest ones, the same as in [starter/](../starter).
+
 Try the 4 small jobs in [docs/2-godot-basics.md](../docs/2-godot-basics.md) on one of these games.
