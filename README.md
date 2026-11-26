@@ -39,7 +39,7 @@ In this test, a second AI (Claude Haiku) plays the kid. The game's own Claude do
 
 ## Keep your chats out of AI training
 
-Claude Pro is on an adult's account. By default, Anthropic may use its chats and Claude Code sessions to train new AI models. Turn this off once, before the first session:
+Claude Pro is on an adult's account. If its training setting is on, Anthropic may use its chats and Claude Code sessions to train new AI models. Make sure that it is off before the first session:
 
 1. Sign in at claude.ai with the account Claude Code uses.
 2. Open [claude.ai/settings/data-privacy-controls](https://claude.ai/settings/data-privacy-controls) (your name → **Settings** → **Privacy**).

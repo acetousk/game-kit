@@ -55,7 +55,7 @@ Two loops: a **card loop** (5–30 min) and, inside it, a **step loop** (about 1
  1. ASK       Type: "Do task G2"
  2. CAN IT?   Claude says: Yes / Yes, but big / Not possible here,
               and how it works.
- 3. PLAN      Claude shows Input, Output, and numbered steps. Read them.
+ 3. PLAN      Claude shows a short plan: the steps and the test. Read them.
     QUIZ      Claude asks 1–3 questions about the plan. Wrong? A hint, then try again.
  4. APPROVE   Choose "Yes, and auto-accept edits". Then no pop-up stops each step.
    │

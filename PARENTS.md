@@ -49,7 +49,7 @@ If your kid says "skip the quiz", Claude asks an easier question. It does not sk
 - Do not put real names, photos, or your home town in the game.
 
 **The AI helper:**
-- It works only on the game's files, on your kid's computer.
+- It changes only the game's files, on your kid's computer. What your kid types, and the game's code, go to Anthropic's servers so that Claude can answer.
 - It never asks for a password, and it never downloads files from the internet.
 - It cannot change its own rules. Only the adult who set it up can change them.
 - It cannot copy other games. It makes your kid's own version.
@@ -60,7 +60,7 @@ If your kid says "skip the quiz", Claude asks an easier question. It does not sk
 - Claude reads each report as a report only. If a report has personal details or mean words, Claude does not repeat it. It tells your kid to get a parent. Sit with your kid, open it, and click **Delete**. Or ask the adult who set it up.
 
 **Your Claude account and AI training:**
-Claude Pro is on an adult's account. By default, Anthropic may use its chats and coding sessions to train new AI models. Your kid's game chats go through this account, so turn training off once:
+Claude Pro is on an adult's account. If its training setting is on, Anthropic may use its chats and coding sessions to train new AI models. Your kid's game chats go through this account, so make sure that the setting is off before the first session:
 
 1. Sign in at claude.ai with the account Claude Code uses.
 2. Open [claude.ai/settings/data-privacy-controls](https://claude.ai/settings/data-privacy-controls). (Or: your name → **Settings** → **Privacy**.)
@@ -102,7 +102,8 @@ You do not need to understand the answer in detail. Listen for whether your kid 
 
 | You see | Do this |
 |---|---|
-| A box on screen asks to "Allow" something, and nobody knows what it is | Click **No**. Your kid asks Claude "what was that?" |
+| A box asks to allow `git push` or `git tag` | This sends a new version to GitHub. Click **Allow** only when your kid asked Claude to ship. |
+| A box on screen asks to "Allow" something else, and nobody knows what it is | Click **No**. Your kid asks Claude "what was that?" |
 | Your kid says Claude asked for a password or a code | Say no. Tell the setup adult. |
 | A friend's report has personal details or mean words | Delete it with your kid (see "Is it safe?"). |
 | Your kid is stuck on the same problem 3 times | Suggest a break. Ask the setup adult to sit in for one session. |
@@ -112,8 +113,9 @@ You do not need to understand the answer in detail. Listen for whether your kid 
 
 | What | Cost |
 |---|---|
-| Claude Pro (the AI helper) | A monthly plan, on an adult's account, because Claude needs users to be 18+ |
-| Godot (the game maker), GitHub (the website), the room service, and the password manager | Free |
+| Claude Pro (the AI helper) | About $20 a month, on an adult's account, because Claude needs users to be 18+. A session can stop at the plan's usage limit. It can continue a few hours later. |
+| Godot (the game maker), GitHub (the website), the room service, and the password manager | Free. Your kid makes these accounts with their own email. |
+| Setup | About 4 hours, once, by an adult with your kid ([setup guide](docs/1-setup.md)) |
 
 ## Try a game made with this kit
 
