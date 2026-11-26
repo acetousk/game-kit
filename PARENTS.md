@@ -24,7 +24,11 @@ A short guide for parents. You do not need to know anything about computers or c
 
 ## Is the AI doing the work for them?
 
-It writes the code. It does not do the thinking. The kit holds Claude to fixed rules:
+[![Watch a 70-second example: a kid and Claude change a game together. Click to play.](docs/media/stormring-kid-and-claude.gif)](docs/media/stormring-kid-and-claude.mp4)
+
+**[▶ Watch the 70-second example (MP4)](docs/media/stormring-kid-and-claude.mp4).** It is a real test run: a second AI plays the kid, and you see the plan, the questions, a wrong answer that gets a hint, and each small step.
+
+Claude writes the code. It does not do the thinking. The kit holds Claude to fixed rules:
 
 1. Your kid says what they want, for example "add an enemy that chases me".
 2. Claude explains the idea in plain words and shows a short plan.
