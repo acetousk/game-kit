@@ -112,4 +112,3 @@ Each page has a "Play" section with the link for the web, phone, and PC.
 | **Ship** | Send a new version out to friends |
 | **Skill** | A fixed set of steps Claude follows for one kind of job, like "fix a bug" |
 | **Issue** | A bug report or idea from a friend, on GitHub |
-| **F5** | The key that starts the game to test it |
