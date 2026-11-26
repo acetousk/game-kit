@@ -158,7 +158,7 @@ The result is a complete game: start screen → play → win or lose → play ag
 |---|---|---|
 | 3D racer | 1 car, 1 track, 3 laps, a timer | More cars, AI drivers, more tracks |
 | 2D platformer | 1 level, coins, 1 enemy type | More levels, bosses |
-| Top-down shooter | 1 arena, waves of 1 enemy type | Weapons, upgrades |
+| Top-down splat arena (water balloons, paint) | 1 arena, waves of 1 enemy type | More throwables, upgrades |
 | 3D puzzle | 3 small puzzles in 1 room | A story, more rooms |
 
 Start with: **"Do task G1."** Claude asks you one question at a time and fills in `DESIGN.md`.

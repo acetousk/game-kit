@@ -24,7 +24,11 @@ A short guide for parents. You do not need to know anything about computers or c
 
 ## Is the AI doing the work for them?
 
-It writes the code. It does not do the thinking. The kit holds Claude to fixed rules:
+[![Watch a 70-second example: a kid and Claude change a game together. Click to play.](docs/media/stormring-kid-and-claude.gif)](docs/media/stormring-kid-and-claude.mp4)
+
+**[▶ Watch the 70-second example (MP4)](docs/media/stormring-kid-and-claude.mp4).** It is a real test run: a second AI plays the kid, and you see the plan, the questions, a wrong answer that gets a hint, and each small step.
+
+Claude writes the code. It does not do the thinking. The kit holds Claude to fixed rules:
 
 1. Your kid says what they want, for example "add an enemy that chases me".
 2. Claude explains the idea in plain words and shows a short plan.
@@ -54,6 +58,22 @@ If your kid says "skip the quiz", Claude asks an easier question. It does not sk
 - The game and its code are on a public website (GitHub), so friends can play it. Anyone with the link can see it.
 - Friends can send bug reports and ideas there. Anyone with a free account can write one, so a stranger could too.
 - Claude reads each report as a report only. If a report has personal details or mean words, Claude does not repeat it. It tells your kid to get a parent. Sit with your kid, open it, and click **Delete**. Or ask the adult who set it up.
+
+**Your Claude account and AI training:**
+Claude Pro is on an adult's account. By default, Anthropic may use its chats and coding sessions to train new AI models. Your kid's game chats go through this account, so turn training off once:
+
+1. Sign in at claude.ai with the account Claude Code uses.
+2. Open [claude.ai/settings/data-privacy-controls](https://claude.ai/settings/data-privacy-controls). (Or: your name → **Settings** → **Privacy**.)
+3. Turn off the switch that lets Anthropic use your chats to improve its AI models.
+
+| | Training off | Training on |
+|---|---|---|
+| New chats and Claude Code sessions | Not used to train models | Used to train models |
+| How long Anthropic keeps them | 30 days | 5 years |
+
+- The switch covers claude.ai and Claude Code together. Claude Code has no second switch.
+- It works from now on. Chats from before you turned it off can already be in training.
+- **The kit turns off feedback uploads.** The `/feedback`, `/bug`, and `/share` commands would send a copy of the chat and the game code to Anthropic, kept for 5 years. The kit's settings turn them off, and turn off the "How is Claude doing?" survey. Claude cannot change these settings.
 
 **Passwords:** each account password is kept in a free password manager (Bitwarden). It is never in a note or in the chat with Claude.
 
@@ -97,7 +117,7 @@ You do not need to understand the answer in detail. Listen for whether your kid 
 
 ## Try a game made with this kit
 
-- [Stormring](https://github.com/acetousk/stormring): a 3D island game, played solo or online with up to 4 players.
+- [Stormring](https://github.com/acetousk/stormring): a 3D food fight in a giant school lunchroom (tomatoes, no guns), played solo or online with up to 4 players.
 - [Lantern Deep](https://github.com/acetousk/lantern-deep): a 2D cave game, played solo or with friends.
 
 Each page has a "Play" section with the link for the web, phone, and PC.

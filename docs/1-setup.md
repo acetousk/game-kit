@@ -58,7 +58,7 @@ Claude makes the other repo files (`DESIGN.md`, `PLAN.md`, `PLAYTEST.md`, …) w
 
 | Service | Who signs up | Cost | Why | Sign-up notes |
 |---|---|---|---|---|
-| **Claude Pro** (claude.com) | Parent | About $20/month (check claude.com/pricing) | Claude.ai chat + Claude Code | Upgrade to Max only if you hit the usage limits often |
+| **Claude Pro** (claude.com) | Parent | About $20/month (check claude.com/pricing) | Claude.ai chat + Claude Code | Upgrade to Max only if you hit the usage limits often. Turn off AI training at claude.ai/settings/data-privacy-controls (see [PARENTS.md](../PARENTS.md#is-it-safe)). |
 | **Email** | Kid | $0 | Used for all the kid's game accounts | Use the nickname, not the real name |
 | **Bitwarden** (bitwarden.com) | Kid | $0 (free personal vault) | Passwords, recovery codes, the keystore, and the GD-Sync keys | |
 | **GitHub** (github.com) | Kid | $0 | Code, history, automatic builds, releases, web hosting | Nickname username, letters, numbers, and `-` only (no `_`). Turn on "Keep my email address private". |

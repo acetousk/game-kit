@@ -4,7 +4,7 @@ Two games made with this kit, from the first idea to a release. Each one is its 
 
 | Game | What it is | What it shows |
 |---|---|---|
-| [**Stormring**](https://github.com/acetousk/stormring) | A small 3D battle royale on an island. Glide down, find a rifle, build walls, and stay inside the shrinking storm. Solo with 3 bots, or online with up to 4 players. | 3D scenes from simple shapes, a third-person camera, bots that find a path, online rooms, sounds made by a script |
+| [**Stormring**](https://github.com/acetousk/stormring) | A kid-friendly 3D food fight in a giant 80s school lunchroom, where everyone is a small kindergartner. Jump off a lunch table with a napkin parachute, throw tomatoes, build tray walls, and stay out of the jello spill. Solo with 3 bots, or online with up to 4 players. | 3D models from simple shapes, a big room that looks huge, school-style screens made with a Theme, a third-person camera, thrown food that flies in an arc, bots that find a path, online rooms, sounds made by a script |
 | [**Lantern Deep**](https://github.com/acetousk/lantern-deep) | A 2D turn-based cave crawler. Carry a lantern down 3 floors to grab the Ember Relic. 1–4 players. | Random caves, a field of view in the dark, pixel art made by a script, turn-based co-op online |
 
 ## Open one in Godot
