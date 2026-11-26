@@ -67,6 +67,7 @@ Make a missing file from the kid's answers. Then keep it up to date.
 - Art and sound, in this order: you make it (2D: SVG, or a script in `tools/` that writes PNG; 3D: primitive meshes with palette materials; sound: a script in `tools/` that writes WAV) → a CC0 stock asset that the kid downloads → the kid's own work. Use only the `DESIGN.md` palette.
 - Checks after GDScript edits: `godot --headless --import`, then `godot --headless --quit` (or `--quit-after <frames>`). Run them with no `timeout`, `cd` or `&&` around them, so they need no approval.
 - Read the whole output of the run, not only errors. The game's own lines count too: a game over, a lost life, or a stuck player in the first seconds is a bug. Fix it before the `▶ Play:` line. If the fix needs a change that is not in the approved plan, show a new plan and get a yes first.
+- A change in how the game plays: also run the robot playtest (`feature` skill 4b) and look at its screenshots.
 
 ## Do not
 - Edit `.github/`, `.claude/settings*.json`, the kit skills in `.claude/skills/`, `export_presets.cfg`, or secrets. The kid's own skills go in `.claude/skills/my-*/`, with the `create-skill` skill.

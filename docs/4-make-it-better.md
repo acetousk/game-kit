@@ -65,6 +65,19 @@ The game saves simple stats on **your** device only (`user://stats.json`). Nothi
 
 Compare the stats with the **Feel goals** at the top of `PLAYTEST.md`. That is how you know a change helped, not only felt different.
 
+### Juice: can you see and hear it?
+A game feels good when it answers you. Play one run and check:
+
+| Ask yourself | If not, say to Claude |
+|---|---|
+| Do I hear and see it when I do something? | "Picking up a box has no sound" |
+| Do I know when my hit lands? | "I can't tell if I hit" |
+| Do I know who hit me, and from where? | "I lose and don't know why" |
+| Do I know where to go when there is danger? | "I don't know where to run" |
+| Can I tell the enemies apart? | "All the bots look the same" |
+
+Claude also tests your game with a **robot player** that plays a match and takes screenshots. A game window opens by itself for about 2 minutes: do not click it. The robot finds bugs. Only you can say if it is fun.
+
 ### Rules
 - **One change at a time.** With 2 changes, you cannot tell which one helped.
 - **Play at least one full run** before "keep" or "undo".
