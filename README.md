@@ -13,8 +13,8 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 
 | Who | Read |
 |---|---|
-| **Parent** | [PARENTS.md](PARENTS.md): how it all works, safety, accounts, costs, and a checklist |
-| **Parent + kid** | [docs/1-setup.md](docs/1-setup.md): the one-time setup (about 4 hours) |
+| **Parent** | [PARENTS.md](PARENTS.md): what your kid does and learns, safety, cost, and your 10 minutes a week. No tech needed. |
+| **Setup adult + kid** | [docs/1-setup.md](docs/1-setup.md): the one-time setup (about 4 hours). For an adult who is comfortable with computers. |
 | **Kid** | [docs/2-godot-basics.md](docs/2-godot-basics.md): what Godot is, how a game is built, and how to use the editor |
 | **Kid** | [docs/3-make-the-game.md](docs/3-make-the-game.md): how you work with Claude, then your first game |
 | **Kid** | [docs/4-make-it-better.md](docs/4-make-it-better.md): tune the feel, new ideas, art and sound |
@@ -27,7 +27,7 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 ```
 game-kit/
 ├── README.md       This page
-├── PARENTS.md      For parents
+├── PARENTS.md      For parents (no tech needed)
 ├── docs/           The guides, in order
 ├── starter/        The files for a new game repo: Claude's rules and skills, the build pipeline, an empty Godot project
 └── examples/       Two games made with this kit

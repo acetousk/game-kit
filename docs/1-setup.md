@@ -1,7 +1,7 @@
 # 1. Full setup plan (one time, parent + kid)
 
 Start with the [README](../README.md): it lists every guide and who reads it.
-This guide is for the parent, with the kid next to you.
+This guide is for the setup adult (someone who is comfortable with computers), with the kid next to you. "Parent" in this guide means that adult. The non-technical guide for parents is [PARENTS.md](../PARENTS.md).
 
 ### Kid files vs agent files
 
