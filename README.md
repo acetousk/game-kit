@@ -19,7 +19,8 @@ The kit is made for a 16-year-old with no coding background. **You** make every 
 | **Kid** | [docs/3-make-the-game.md](docs/3-make-the-game.md): how you work with Claude, then your first game |
 | **Kid** | [docs/4-make-it-better.md](docs/4-make-it-better.md): tune the feel, new ideas, art and sound |
 | **Kid** | [docs/5-ship-and-play.md](docs/5-ship-and-play.md): release a version, the 4 platforms, online rooms |
-| **Kid** | [docs/6-when-stuck.md](docs/6-when-stuck.md): common problems and what to do |
+| **Kid** | [docs/6-friends-and-feedback.md](docs/6-friends-and-feedback.md): bug reports and ideas from friends, and the docs for your players |
+| **Kid** | [docs/7-when-stuck.md](docs/7-when-stuck.md): common problems and what to do |
 
 ## What is in this repo
 

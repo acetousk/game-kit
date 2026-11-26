@@ -53,4 +53,4 @@ Rooms work inside Godot from card G5 on. For the web, phone, and PC builds, the 
 
 **Never paste a key in the chat with Claude.** Claude never needs to see it. If you paste one by mistake, delete it on the GD-Sync website and make a new one.
 
-Next: [6-when-stuck.md](6-when-stuck.md).
+Next: [6-friends-and-feedback.md](6-friends-and-feedback.md).

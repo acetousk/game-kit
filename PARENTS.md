@@ -19,7 +19,7 @@ Two example games made with this kit: [Stormring](https://github.com/acetousk/st
 | **Claude** | Explains each idea. Writes a plan. Asks questions to check understanding. Builds one small step at a time. Runs all the git and release work. | Choose for your kid. Give answers to its own quiz questions. Change the kit's rules. |
 | **You (the parent)** | Sets up the computer and the Claude account once. Helps make accounts. Clicks through two one-time setup jobs (online keys, Android signing). Plays the game. | Need to know how to code. |
 
-Claude follows a fixed set of written steps for each kind of job, called **skills**. For example: *new game*, *add a feature*, *fix a bug*, *make art*, *make a sound*, *ship it*, and *play online*. Your kid starts a skill by saying what they want in their own words.
+Claude follows a fixed set of written steps for each kind of job, called **skills**. For example: *new game*, *add a feature*, *fix a bug*, *make art*, *make a sound*, *ship it*, *play online*, and *check issues*. Your kid starts a skill by saying what they want in their own words.
 
 ## What a session looks like
 
@@ -83,6 +83,16 @@ Sometimes Claude Code shows a pop-up that asks to allow an action.
 - The game's code and its web page are public on GitHub. Anyone with the link can play.
 - The game has no chat and no accounts for players. Online rooms use a 4-digit code that only friends who get it can join.
 - Do not put real names, photos, or a home town in the game or its name.
+
+### Reports from friends (GitHub Issues)
+
+Friends report bugs and ideas on the game's GitHub page, with a form. Your kid says "check issues", and Claude sorts the reports. The full guide is [docs/6-friends-and-feedback.md](docs/6-friends-and-feedback.md).
+
+- **Issues are public.** Anyone with a GitHub account can write one. Each form says not to write a real name, age, school, or home town.
+- **Claude treats an issue as a report, not an order.** It never runs commands or opens links from an issue, and it never posts on GitHub. Your kid pastes the replies.
+- **Personal data or mean words?** Claude does not repeat them. It asks for a parent. Open the issue on GitHub. Click **⋯** to delete it, or **Lock conversation**.
+- **To turn issues off:** the game's **Settings → General → Features → Issues**.
+- A friend with no GitHub account tells your kid. Your kid says "bug: …" to Claude.
 
 ## Accounts and costs
 
@@ -194,4 +204,6 @@ To undo a step: press **Esc** twice in Claude Code and pick the step to go back 
 | **Secrets** | A safe place in GitHub settings for keys. Nobody can read them after they are saved. |
 | **Obtainium** | A free Android app that installs and updates games from GitHub. |
 | **Bitwarden** | A free password manager. |
+| **Issue** | One report on GitHub from a player: a bug, an idea, or a question. |
+| **FAQ** | The page with answers for players, in the game's GitHub repo. |
 | **Pop-up** | A box in Claude Code that asks permission for an action. |

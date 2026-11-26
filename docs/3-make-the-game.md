@@ -127,7 +127,7 @@ Two loops: a **card loop** (5–30 min) and, inside it, a **step loop** (about 1
 
 The repo makes Claude follow this flow. You do not need to read these files:
 - `AGENTS.md`: the rules, for any game and any request.
-- The skills in `.claude/skills/`: `game-plan` sorts each request to `new-game`, `feature`, `bug`, `ship`, `doctor`, `create-2d`, `create-3d`, `create-audio`, `create-background`, `create-environment`, `explain`, `online`, or `create-skill`.
+- The skills in `.claude/skills/`: `game-plan` sorts each request to `new-game`, `feature`, `bug`, `ship`, `doctor`, `create-2d`, `create-3d`, `create-audio`, `create-background`, `create-environment`, `explain`, `online`, `issues`, or `create-skill`.
 - `.claude/settings.json`: Claude Code starts in plan mode, so it cannot edit before you approve.
 
 ---
