@@ -24,10 +24,30 @@ A real test run of the kit. The kid asks for a change to the example game Stormr
 
 In this test, a second AI (Claude Haiku) plays the kid. The game's own Claude does all the work, the same way as for a real kid.
 
+## Try it yourself
+
+On your desktop computer, open an empty folder in **Claude Code** or **ChatGPT Codex**. Paste this prompt. The helper sets up everything and starts a new game with you, from scratch.
+
+```text
+Set up the Game Kit in this empty folder and start a new game with me. I am new to this. Explain each step in one short sentence. Ask me before you install anything.
+
+1. Check my operating system.
+2. Install Godot 4.7.2 (standard, not .NET) from godotengine.org or its official GitHub releases. Use this exact version.
+3. Make a "godot" command that works in this terminal. Check it with "godot --version".
+4. Install git if it is missing.
+5. Download https://github.com/acetousk/game-kit. Copy everything in its starter/ folder, also the hidden files, into this folder. Then delete the download.
+6. Run "git init" here, then "godot --headless --import" once.
+7. Read AGENTS.md and follow its rules from now on. If you cannot load the skills in .claude/skills by name, read each SKILL.md file yourself when a rule says to use it.
+8. Do the "First run" in AGENTS.md. Then help me make my game.
+```
+
+How to use it, in 5 short sections: [docs/quick-start.md](docs/quick-start.md).
+
 ## Start here
 
 | Who | Read |
 |---|---|
+| **Anyone, first try** | [docs/quick-start.md](docs/quick-start.md): get an AI helper, paste the prompt, and the words to say. 5 short sections. |
 | **Parent** | [PARENTS.md](PARENTS.md): what your kid does and learns, safety, cost, and your 10 minutes a week. No tech needed. |
 | **Setup adult + kid** | [docs/1-setup.md](docs/1-setup.md): the one-time setup (about 4 hours). For an adult who is comfortable with computers. |
 | **Kid** | [docs/2-godot-basics.md](docs/2-godot-basics.md): what Godot is, how a game is built, and how to use the editor |
